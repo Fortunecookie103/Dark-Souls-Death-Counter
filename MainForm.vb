@@ -1,7 +1,6 @@
 ﻿Public Class MainForm
     Private Sub PictureBox1_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox1.Click
 
-        'If the file deaths.txt exists in the specified directory, delete it, and create a new one with +1 death.
         If My.Computer.FileSystem.FileExists("C:\Users/User/Documents/Deathcounter/Deaths.txt") = True Then
             My.Computer.FileSystem.DeleteFile("C:\Users/User/Documents/Deathcounter/Deaths.txt")
 
